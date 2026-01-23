@@ -12,11 +12,12 @@ public class Second{
 
         System.out.println("Enter your age");
         int age=scanner.nextInt();
+        scanner.nextLine();
 
         System.out.println("Enter your email");
         String email=scanner.nextLine();
 
-        System.out.println("Enter your email");
+        System.out.println("Enter your alternate email");
         String second=scanner.nextLine();
 
 
