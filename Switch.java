@@ -27,6 +27,8 @@ public class Switch {
             case 7:
                 System.out.println("Saturday");
                 break;
+            default:
+                System.out.println("Invalid week");
         }
 
     }    
