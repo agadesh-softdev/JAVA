@@ -12,7 +12,7 @@ public class Switch2 {
             case 'a':
             case 'e':
             case 'i':
-            case '0':
+            case 'o':
             case 'u':
                 System.out.println("You Entered a vowel");
                 break;
