@@ -14,6 +14,13 @@ public class ClassObject {
         blackbox.b = 20;
         blackbox.h = 30;
 
+        Box whitebox=new Box();
+        whitebox.l=20;
+        whitebox.b=20;
+        whitebox.h=20;
+        System.out.println(whitebox.vol());
+
+
         System.out.println("Volume: " + blackbox.vol());
     }
 }
